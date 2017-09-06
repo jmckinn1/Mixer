@@ -15,23 +15,52 @@
         android:layout_height="160dp"
         app:srcCompat="@mipmap/mixer"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Mixer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover new and intersting meals."
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to start swiping!"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="248dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="255dp"
-        android:layout_height="49dp"
-        android:text="Sign In"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:id="@+id/button1"
+        android:layout_width="249dp"
+        android:layout_height="37dp"
+        android:padding="10dp"
+        android:textColor="@color/colorButtonText"
+        android:background="@drawable/roundedButton"
+        android:text="Login With Mixer"
+        tools:layout_editor_absoluteY="438dp"
+        tools:layout_editor_absoluteX="56dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="255dp"
-        android:layout_height="45dp"
-        android:elevation="0dp"
-        android:text="Create Acount"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="231dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="489dp" />
+
 
 </android.support.constraint.ConstraintLayout>
