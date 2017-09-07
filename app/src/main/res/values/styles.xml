@@ -8,7 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/colorBackground</item>
         <item name="android:textColor">@color/colorText</item>
-        <item name="colorButtonText">@colorButtonText</item>
+        <!--<item name="colorButtonText">@color/colorButtonText</item>-->
+        <!--<item name="colorInputText">@color/colorInputText</item>-->
+        <!--<item name="colorInputBox">@color/colorInputBox</item>-->
+        <item name="android:textColorHint">@color/colorInputText</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

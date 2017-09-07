@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mixer</string>
+    <string name="button_account">Create Account</string>
+    <string name="title_activity_create_new_account">createNewAccount</string>
 </resources>
