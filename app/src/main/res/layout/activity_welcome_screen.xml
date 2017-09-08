@@ -147,7 +147,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button1"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="createAccount"/>
+        android:onClick=""/>
 
     <!--<TextView-->
         <!--android:id="@+id/textView4"-->
