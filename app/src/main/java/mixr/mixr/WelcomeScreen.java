@@ -11,14 +11,17 @@ import android.widget.Button;
 
 public class WelcomeScreen extends AppCompatActivity {
 
-    Button GoToNewActivity;
+    Button GoToHomeScreen;
+    Button GoToCreateAccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
-        GoToNewActivity = (Button)findViewById(R.id.button1);
+        GoToHomeScreen = (Button)findViewById(R.id.button1);
+        GoToCreateAccount = (Button)findViewById(R.id.textView4);
 
-        GoToNewActivity.setOnClickListener(new View.OnClickListener() {
+
+        GoToHomeScreen.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -26,6 +29,19 @@ public class WelcomeScreen extends AppCompatActivity {
                 // Intent code for open new activity through intent.
 
                 Intent intent = new Intent(WelcomeScreen.this, HomeScreen.class);
+                startActivity(intent);
+
+            }
+        });
+
+        GoToCreateAccount.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(WelcomeScreen.this, CreateAccount.class);
                 startActivity(intent);
 
             }
