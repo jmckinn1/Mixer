@@ -24,4 +24,13 @@
         completions."
     </string>
     <string name="login_with_mixer">Login With Mixer</string>
+    <string name="account">Account</string>
+    <string name="matches">Matches</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="welcome_to_whisc">Welcome to Whisc</string>
+    <string name="login_with_whisc">Login with Whisc</string>
 </resources>
