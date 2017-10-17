@@ -42,6 +42,7 @@ public class WelcomeScreen extends AppCompatActivity {
                 // Intent code for open new activity through intent.
 
                 Intent intent = new Intent(WelcomeScreen.this, CreateAccount.class);
+//                Intent intent = new Intent(WelcomeScreen.this, AddMeal.class);
                 startActivity(intent);
 
             }

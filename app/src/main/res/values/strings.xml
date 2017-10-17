@@ -33,4 +33,5 @@
     <string name="account_settings">Account Settings</string>
     <string name="welcome_to_whisc">Welcome to Whisc</string>
     <string name="login_with_whisc">Login with Whisc</string>
+    <string name="meal_name">Meal Name</string>
 </resources>

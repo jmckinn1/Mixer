@@ -41,7 +41,8 @@
         <activity
             android:name=".CreateAccount"
             android:label="@string/title_activity_create_account" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AddMeal"></activity>
     </application>
 
 </manifest>
